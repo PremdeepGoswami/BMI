@@ -42,7 +42,8 @@ if st.button("Calculate BMI"):
         st.write(f"**Height:** {feet} ft {inches} in")
         st.write(f"**Weight:** {weight:.1f} kg")
         st.write(f"**BMI:** {bmi:.2f}")
-        st.write(f"**Category:** {category}")
+        st.subheader("📋 BMI Result")
+        st.success(f"{name}, your BMI is {bmi:.2f}. You are {category}.")
 
         st.subheader("🎯 Ideal Weight Range")
         st.success(f"{ideal_min:.1f} kg to {ideal_max:.1f} kg")
