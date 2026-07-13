@@ -6,7 +6,7 @@ name = st.text_input("Enter your name")
 age = st.number_input("Enter your age")
 
 # Height Input
-feet = st.number_input("Enter Height (Feet)", min_value=0, max_value=8, value=1)
+feet = st.number_input("Enter Height (Feet)", min_value=0, max_value=8, value=5)
 inches = st.number_input("Enter Height (Inches)", min_value=0, max_value=11, value=5)
 
 # Weight Input
